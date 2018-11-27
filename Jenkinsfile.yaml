@@ -4,7 +4,7 @@ stages:
     - name: First
       agent: any
       steps:
-        - sh: "sudo ./scripts/hello.sh"
+        - sh: "echo 'hello'"
     - name: Build
       agent: any
       steps:
