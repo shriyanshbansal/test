@@ -4,15 +4,15 @@ stages:
     - name: First
       agent: any
       steps:
-        - sh: "./scripts/hello.sh"
+        - sh: "echo 'hello'"
     - name: Build
       agent: any
       steps:
-        - sh: "./scripts/build.sh"
+        - sh: "echo 'Shriyansh Bansal'"
     - name: Tests
       agent: any
       steps:
-        - sh: "./scripts/test.sh"
+        - sh: "echo 'Vinayak DevOps'"
 
 configuration:
     archiveArtifacts:
