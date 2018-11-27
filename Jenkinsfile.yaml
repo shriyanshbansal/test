@@ -8,11 +8,11 @@ stages:
     - name: Build
       agent: any
       steps:
-        - sh: "sudo ./scripts/build.sh"
+        - sh: "echo 'Shriyansh Bansal'"
     - name: Tests
       agent: any
       steps:
-        - sh: "sudo ./scripts/test.sh"
+        - sh: "echo 'Vinayak DevOps'"
 
 configuration:
     archiveArtifacts:
